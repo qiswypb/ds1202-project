@@ -31,14 +31,23 @@ Run the following command from the project directory:
 4. Commit the enhancement.
 5. Merge the feature branch into `main`.
 
-Example Output
+## Setup Instructions
 
-When the script runs, it displays:
+1. Generate an SSH key using `ssh-keygen`.
+2. Add your public key to the server's `authorized_keys` file.
+3. Connect to the lab server using SSH.
+4. Create the `scripts/`, `docs/`, and `logs/` directories.
+5. Set the project directory permissions to `755`.
+6. Make the script executable using `chmod +x scripts/sysinfo.sh`.
 
-* Hostname and operating system
-* Kernel version
-* CPU load and uptime
-* Memory usage
-* Disk usage
+## Example Output
 
-The generated system report is saved in logs/sysinfo-report.txt.
+The script displays the hostname, operating system, kernel version, CPU load and uptime, memory usage, and disk usage. It also saves the system report to `logs/sysinfo-report.txt`.
+
+## Evidence Screenshots
+
+1. SSH key generation output.
+2. Successful passwordless SSH login.
+3. Project directory structure and permissions.
+4. Enhanced system information script output after merging.
+5. Git history showing branches and the merge.
