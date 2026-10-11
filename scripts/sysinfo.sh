@@ -1,23 +1,36 @@
 #!/bin/bash
-echo "===== SYSTEM INFORMATION REPORT ====="
-echo ""
 
-echo "Hostname"
-hostname
-echo ""
+REPORT="$HOME/ds1202-project/logs/sysinfo-report.txt"
 
-echo "Operating System:"
-grep PRETTY_NAME /etc/os-release
-echo ""
+{
+    echo "===== SYSTEM INFORMATION REPORT ====="
+    echo "Date: $(date)"
+    echo ""
 
-echo "Kernel Version:"
-uname -r
-echo ""
+    echo "Hostname:"
+    hostname
+    echo ""
 
-echo "Memory Usage:"
-free -h
-echo ""
+    echo "Operating System:"
+    grep PRETTY_NAME /etc/os-release
+    echo ""
 
-echo "Disk Usage:"
-df -h /
+    echo "Kernel Version:"
+    uname -r
+    echo ""
+
+    echo "CPU Load and Uptime:"
+    uptime
+    echo ""
+
+    echo "Memory Usage:"
+    free -h
+    echo ""
+
+    echo "Disk Usage:"
+    df -h /
+    echo ""
+} | tee "$REPORT"
+
 echo ""
+echo "Report saved to: $REPORT"

@@ -1,0 +1,24 @@
+===== SYSTEM INFORMATION REPORT =====
+Date: Sun Oct 11 08:44:28 UTC 2026
+
+Hostname:
+iib-as2
+
+Operating System:
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+
+Kernel Version:
+7.0.0-31-generic
+
+CPU Load and Uptime:
+ 08:44:28 up 22 days, 18:14,  2 users,  load average: 0.11, 0.09, 0.09
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           956Mi       222Mi        85Mi       4.1Mi       673Mi       733Mi
+Swap:             0B          0B          0B
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        24G  3.0G   21G  13% /
+
