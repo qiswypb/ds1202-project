@@ -30,3 +30,15 @@ Run the following command from the project directory:
 3. Enhance the system information script.
 4. Commit the enhancement.
 5. Merge the feature branch into `main`.
+
+Example Output
+
+When the script runs, it displays:
+
+* Hostname and operating system
+* Kernel version
+* CPU load and uptime
+* Memory usage
+* Disk usage
+
+The generated system report is saved in logs/sysinfo-report.txt.
