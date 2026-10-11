@@ -1,8 +1,5 @@
 ===== SYSTEM INFORMATION REPORT =====
-
-Date: Sun Oct 11 10:52:44 UTC 2026
-=======
-Date: Sun Oct 11 11:00:09 UTC 2026
+Date: Sun Oct 11 11:25:51 UTC 2026
 
 Hostname:
 iib-as2
@@ -14,19 +11,11 @@ Kernel Version:
 7.0.0-31-generic
 
 CPU Load and Uptime:
-<<<<<<< HEAD
- 10:52:44 up 22 days, 20:22,  5 users,  load average: 0.05, 0.10, 0.09
+ 11:25:51 up 22 days, 20:55,  1 user,  load average: 0.18, 0.11, 0.09
 
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           956Mi       234Mi        45Mi       4.1Mi       702Mi       722Mi
-=======
- 11:00:09 up 22 days, 20:30,  2 users,  load average: 0.07, 0.06, 0.08
-
-Memory Usage:
-               total        used        free      shared  buff/cache   available
-Mem:           956Mi       220Mi        59Mi       4.1Mi       702Mi       736Mi
->>>>>>> feature-logging
+Mem:           956Mi       211Mi        67Mi       4.0Mi       703Mi       744Mi
 Swap:             0B          0B          0B
 
 Disk Usage:
